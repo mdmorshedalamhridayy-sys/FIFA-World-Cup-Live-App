@@ -70,11 +70,7 @@ fun VideoPlayer(
 
     // Re-create ExoPlayer when URL or refresh trigger changes
     val exoPlayer = remember(url, refreshTrigger) {
-        val playerContext = if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.R) {
-            context.createAttributionContext("default")
-        } else {
-            context
-        }
+        val playerContext = context
 
         // Custom live stream LoadControl settings - Completely rules out sluggish buffering and lagging
         val loadControl = androidx.media3.exoplayer.DefaultLoadControl.Builder()
