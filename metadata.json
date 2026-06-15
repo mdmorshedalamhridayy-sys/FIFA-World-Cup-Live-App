@@ -1,0 +1,8 @@
+{
+  "name": "World Cup TV",
+  "description": "Professional Live FIFA World Cup and Sports TV player with smooth streaming and a gorgeous modern UI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

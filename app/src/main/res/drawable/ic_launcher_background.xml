@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Immersive stadium pitch dark background grad -->
+    <path
+        android:pathData="M0,0 h108 v108 h-108 Z"
+        android:fillColor="#0F1412" />
+
+    <!-- Subtle soccer field lines in the background -->
+    <path
+        android:pathData="M14,14 h80 v80 h-80 Z"
+        android:strokeWidth="1.2"
+        android:strokeColor="#1F5A3C"
+        android:fillColor="#00000000" />
+        
+    <path
+        android:pathData="M54,14 L54,94"
+        android:strokeWidth="1.2"
+        android:strokeColor="#1F5A3C" />
+
+    <path
+        android:pathData="M54,54 m-16,0 a16,16 0 1,1 32,0 a16,16 0 1,1 -32,0"
+        android:strokeWidth="1.2"
+        android:strokeColor="#1F5A3C"
+        android:fillColor="#00000000" />
+</vector>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Transmitting TV / Live Wave Arcs (Left and Right) -->
+    <path
+        android:pathData="M 30,28 A 38,38 0 0,0 30,80"
+        android:strokeWidth="4"
+        android:strokeColor="#2EF8A0"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <path
+        android:pathData="M 78,28 A 38,38 0 0,1 78,80"
+        android:strokeWidth="4"
+        android:strokeColor="#2EF8A0"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Inner Live Wave Arcs -->
+    <path
+        android:pathData="M 36,36 A 25,25 0 0,0 36,72"
+        android:strokeWidth="3.2"
+        android:strokeColor="#F0F5F2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <path
+        android:pathData="M 72,36 A 25,25 0 0,1 72,72"
+        android:strokeWidth="3.2"
+        android:strokeColor="#F0F5F2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Gold Soccer Championship Trophy -->
+    <!-- Cup Bowl -->
+    <path
+        android:pathData="M 40,32 L 68,32 C 68,52 62,64 54,64 C 46,64 40,52 40,32 Z"
+        android:fillColor="#FFD700" />
+
+    <!-- Left Handle -->
+    <path
+        android:pathData="M 40,36 C 34,36 34,48 40,48"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFD700"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Right Handle -->
+    <path
+        android:pathData="M 68,36 C 74,36 74,48 68,48"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFD700"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Stem & Base -->
+    <path
+        android:pathData="M 54,62 L 54,72"
+        android:strokeWidth="4.5"
+        android:strokeColor="#FFD700"
+        android:strokeLineCap="round" />
+        
+    <path
+        android:pathData="M 46,74 L 62,74"
+        android:strokeWidth="5"
+        android:strokeColor="#FFD700"
+        android:strokeLineCap="round" />
+
+    <!-- Soccer ball center emblem on the trophy bowl -->
+    <path
+        android:pathData="M 54,44 m -5,0 a 5,5 0 1,1 10,0 a 5,5 0 1,1 -10,0"
+        android:fillColor="#FFFFFF" />
+        
+    <path
+        android:pathData="M54,39 L51,41 M54,39 L57,41 M51,41 L52,45 M57,41 L56,45 M52,45 L54,44 M56,45 L54,44"
+        android:strokeWidth="0.8"
+        android:strokeColor="#0F1412" />
+</vector>
